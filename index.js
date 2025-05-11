@@ -5,7 +5,7 @@ import axios from 'axios';
 const app = express();
 const port = 3000;
 
-const api_key = '462e1f61e609916442546abdbfa4f564';
+const api_key = 'Copy your own openWeather apikey here';
 const API_URL = 'https://api.openweathermap.org/data/2.5/weather';
 
 app.use(bodyParser.urlencoded({ extension : true }));
