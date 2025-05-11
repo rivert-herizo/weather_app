@@ -1,0 +1,26 @@
+{
+  "name": "weather_app",
+  "version": "1.0.0",
+  "description": "This is a weather app",
+  "homepage": "https://github.com/rivert-herizo/weather_app#readme",
+  "bugs": {
+    "url": "https://github.com/rivert-herizo/weather_app/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rivert-herizo/weather_app.git"
+  },
+  "license": "ISC",
+  "author": "Razafison Rivert Herizo",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "axios": "^1.9.0",
+    "body-parser": "^2.2.0",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0"
+  }
+}
