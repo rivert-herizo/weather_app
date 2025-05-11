@@ -46,11 +46,10 @@ app.post('/find', async (req, res) => {
         });
 
         const result = response.data;
-        const weather = result.weather.main;
-        const city = result.weather.name;
-
-        console.log(weather, city);
-        res.render('index.ejs', {weather: weather, city : city});
+        const weather = result.weather[0];
+        const main = weather.main;
+        const city = result.name;
+        res.render('index.ejs', {weather: main, city : city});
     }
     catch (error) {
         console.log(error);
